@@ -1,0 +1,14 @@
+# Use Python 3.10 or 3.11 (recommended for Metal/JAX).
+# Keep jax unpinned so pip can select a compatible version.
+jax>=0.5
+
+# Raylib (provides the `pyray` module)
+raylib>=3.7.0
+
+# General numeric deps
+numpy>=1.25
+
+# Optional helpful tooling
+jaxtyping>=0.3.0
+
+arcade
